@@ -3,16 +3,27 @@ from google import genai
 from google.genai import types
 from deep_translator import GoogleTranslator
 
-# Initialisation de Gemini
+
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 model_name = "gemini-2.0-flash"
+
 
 # Dictionnaire de langue pour la traduction
 LANG_CODE = {
     "Français": "fr",
     "Anglais": "en",
     "Espagnol": "es",
-    "Arabe": "ar"
+    "Arabe": "ar",
+    "Allemand": "de",
+    "Italien": "it",
+    "Portugais": "pt",
+    "Néerlandais": "nl",
+    "Russe": "ru",
+    "Chinois": "zh",
+    "Japonais": "ja",
+    "Coréen": "ko",
+    "Hindi": "hi",
+
 }
 
 def generate_response(history, tone="Professionnel", translate=None, mode_resume=False):
