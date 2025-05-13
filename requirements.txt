@@ -1,0 +1,5 @@
+streamlit
+google-generativeai
+deep-translator
+python-dotenv
+Pillow
