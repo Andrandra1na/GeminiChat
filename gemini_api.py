@@ -13,7 +13,17 @@ LANG_CODE = {
     "Français": "fr",
     "Anglais": "en",
     "Espagnol": "es",
-    "Arabe": "ar"
+    "Arabe": "ar",
+    "Allemand": "de",
+    "Italien": "it",
+    "Portugais": "pt",
+    "Néerlandais": "nl",
+    "Russe": "ru",
+    "Chinois": "zh",
+    "Japonais": "ja",
+    "Coréen": "ko",
+    "Hindi": "hi",
+
 }
 
 def generate_response(history, tone="Professionnel", translate=None, mode_resume=False):

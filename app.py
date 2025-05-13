@@ -25,7 +25,8 @@ if "messages" not in st.session_state:
 with st.sidebar:
     st.markdown("## ⚙️ Paramètres")
     tone = st.selectbox("🎭 Ton de réponse", ["Professionnel", "Amical", "Court", "Formel"])
-    translate = st.selectbox("🌐 Traduire la réponse", ["Aucune", "Français", "Anglais", "Espagnol", "Arabe"])
+    translate = st.selectbox("🌐 Traduire la réponse", ["Aucune", "Français", "Anglais", "Espagnol", "Arabe",       
+                                                       "Allemand", "Italien", "Portugais", "Néerlandais", "Russe", "Chinois", "Japonais", "Coréen", "Hindi"])
     show_dev = st.checkbox("🧪 Mode développeur")
 
     st.markdown("---")
