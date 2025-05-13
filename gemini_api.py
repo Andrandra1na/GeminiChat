@@ -3,9 +3,10 @@ from google import genai
 from google.genai import types
 from deep_translator import GoogleTranslator
 
-# Initialisation de Gemini
+
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 model_name = "gemini-2.0-flash"
+
 
 # Dictionnaire de langue pour la traduction
 LANG_CODE = {
